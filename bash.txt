@@ -1,0 +1,62 @@
+#
+#Apt-related aliases
+#
+
+#Get that Upgrade
+alias upgrade="sudo apt-get dist-upgrade"
+#Autoremoves Files
+alias autoclean="sudo apt-get clean && sudo apt-get autoremove"
+
+
+#
+#Misc useful aliases
+#
+
+#cd .. faster
+alias up="cd .."
+#ls with color
+alias ls="ls --color=auto"
+#ll with color
+alias ll="ls -l --color=auto"
+#Count number of Files in current directory
+alias countfiles="echo Files in Directory: $(ls -1 | wc -l)"
+#Switch to Desktop directory
+alias desktop="cd /home/pure/Desktop"
+#Switch to Downloads directory
+alias downloads="cd /home/pure/Downloads"
+#Switch to work directoy
+alias work="cd /home/pure/work"
+#All open network ports
+alias port="netstat -tulanp"
+#Check history
+alias check="history | grep"
+#Wifi Pineapple IP
+alias pineapple="echo 172.16.42.1:1471"
+
+
+#
+#Simple Saftey Net
+#
+
+#Ownership only with permission
+alias chown="chown --preserve-root"
+#Mode change only with permission
+alias chmod="chmod --preserve-root"
+#Group change only with permission
+alias chgrp="chgrp --preserve-root"
+
+echo "                                                                                       "
+echo "                                                                                       "
+echo "      ██▓███   █    ██  ██▀███  ▓█████     ▄████▄   ██░ ██  ▄▄▄       ▒█████    ██████ "
+echo "     ▓██░  ██▒ ██  ▓██▒▓██ ▒ ██▒▓█   ▀    ▒██▀ ▀█  ▓██░ ██▒▒████▄    ▒██▒  ██▒▒██    ▒ "
+echo "     ▓██░ ██▓▒▓██  ▒██░▓██ ░▄█ ▒▒███      ▒▓█    ▄ ▒██▀▀██░▒██  ▀█▄  ▒██░  ██▒░ ▓██▄   "
+echo "     ▒██▄█▓▒ ▒▓▓█  ░██░▒██▀▀█▄  ▒▓█  ▄    ▒▓▓▄ ▄██▒░▓█ ░██ ░██▄▄▄▄██ ▒██   ██░  ▒   ██▒"
+echo "     ▒██▒ ░  ░▒▒█████▓ ░██▓ ▒██▒░▒████▒   ▒ ▓███▀ ░░▓█▒░██▓ ▓█   ▓██▒░ ████▓▒░▒██████▒▒"
+echo "     ▒▓▒░ ░  ░░▒▓▒ ▒ ▒ ░ ▒▓ ░▒▓░░░ ▒░ ░   ░ ░▒ ▒  ░ ▒ ░░▒░▒ ▒▒   ▓▒█░░ ▒░▒░▒░ ▒ ▒▓▒ ▒ ░"
+echo "     ░▒ ░     ░░▒░ ░ ░   ░▒ ░ ▒░ ░ ░  ░     ░  ▒    ▒ ░▒░ ░  ▒   ▒▒ ░  ░ ▒ ▒░ ░ ░▒  ░ ░"
+echo "     ░░        ░░░ ░ ░   ░░   ░    ░      ░         ░  ░░ ░  ░   ▒   ░ ░ ░ ▒  ░  ░  ░  "
+echo "                 ░        ░        ░  ░   ░ ░       ░  ░  ░      ░  ░    ░ ░        ░  "
+echo "                                          ░                                            "
+echo "      Introduce a little anarchy. Upset the established order and everything becomes   "
+echo "      Chaos. Madness is mostly like Gravity, all it takes is a little push!            "
+echo "                                                                                       "
